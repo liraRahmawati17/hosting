@@ -185,7 +185,7 @@
 						@foreach($barang as $data)
 						<div class="col-md-4">
 							<div class="card">
-							<center><img src="{{$data->image()}}" alt=""  class="card-img-top" style="width:100px; height:100px;" alt="cover"></center>	
+							<center><img src="{{$data->image()}}" alt=""  class="card-img-top" style="width:100px; height:100px;" alt="cover"></center>
 							  <div class="card-body">
 								<h5 class="card-title">{{ $data->nama_barang }}</h5>
 								<p class="card-text">
@@ -259,9 +259,9 @@
 								<span class="author"><i class="fas fa-user"></i> Admin</span>
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
 							</p>
-							<p class="excerpt"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem consequatur sapiente asperiores reprehenderit deleniti eius alias
-                                doloremque pariatur architecto dicta minima saepe cupiditate nemo dignissimos adipisci officiis dolorum, nesciunt in! </p>
-							<a href="single-news.html" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
+							{{-- <p class="excerpt"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem consequatur sapiente asperiores reprehenderit deleniti eius alias
+                                doloremque pariatur architecto dicta minima saepe cupiditate nemo dignissimos adipisci officiis dolorum, nesciunt in! </p> --}}
+							{{-- <a href="single-news.html" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a> --}}
 						</div>
 					</div>
 				</div>
@@ -274,9 +274,9 @@
 								<span class="author"><i class="fas fa-user"></i> Admin</span>
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
 							</p>
-							<p class="excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas natus veritatis voluptas necessitatibus, asperiores accusamus mollitia odio
-                                ipsa amet laudantium sed laboriosam, nostrum omnis. Consectetur repudiandae necessitatibus exercitationem neque placeat.</p>
-							<a href="single-news.html" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
+							{{-- <p class="excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas natus veritatis voluptas necessitatibus, asperiores accusamus mollitia odio
+                                ipsa amet laudantium sed laboriosam, nostrum omnis. Consectetur repudiandae necessitatibus exercitationem neque placeat.</p> --}}
+							{{-- <a href="single-news.html" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a> --}}
 						</div>
 					</div>
 				</div>
@@ -289,9 +289,9 @@
 								<span class="author"><i class="fas fa-user"></i> Admin</span>
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
 							</p>
-							<p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi deleniti repudiandae blanditiis quas doloribus doloremque? Ut odio
-                                porro sit reprehenderit dicta tempore aliquid laudantium rerum earum? Alias incidunt ipsa temporibus.</p>
-							<a href="single-news.html" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
+							{{-- <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi deleniti repudiandae blanditiis quas doloribus doloremque? Ut odio
+                                porro sit reprehenderit dicta tempore aliquid laudantium rerum earum? Alias incidunt ipsa temporibus.</p> --}}
+							{{-- <a href="single-news.html" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a> --}}
 						</div>
 					</div>
 				</div>
@@ -329,7 +329,7 @@
 	<!-- end logo carousel -->
 
 	<!-- footer -->
-	<div class="footer-area">
+	{{-- <div class="footer-area">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-6">
@@ -372,7 +372,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> --}}
 	<!-- end footer -->
 
 	<!-- copyright -->
@@ -380,18 +380,18 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-12">
-					<p>Copyrights &copy; 2019 - <a href="https://imransdesign.com/">Imran Hossain</a>,  All Rights Reserved.<br>
-						Distributed By - <a href="https://themewagon.com/">Themewagon</a>
+					<p>Copyrights &copy; 2022 - <a href="https://imransdesign.com/">Lira Rahmawati</a>,  All Rights Reserved.<br>
+
 					</p>
 				</div>
 				<div class="col-lg-6 text-right col-md-12">
 					<div class="social-icons">
 						<ul>
-							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+							<li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+							{{-- <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li> --}}
 						</ul>
 					</div>
 				</div>
