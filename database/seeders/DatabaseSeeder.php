@@ -16,6 +16,10 @@ class DatabaseSeeder extends Seeder
         $this->call([
             UsersSeeder::class,
         ]);
+
+         $this->call([
+            produkSeeder::class,
+        ]);
         //jalankan perintah
         // php artisan migrate:fresh --seed
     }
