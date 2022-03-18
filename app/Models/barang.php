@@ -5,9 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+
 class barang extends Model
 {
     use HasFactory;
+    protected $table= 'barangs';
+
     protected $fillable = ['nama_barang', 'harga', 'stok', 'suplier_id', 'cover'];
     protected $visible = ['nama_barang', 'harga', 'stok', 'suplier_id', 'cover'];
     public $timestamps = true;

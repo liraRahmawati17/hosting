@@ -6,6 +6,7 @@ use App\Http\Controllers\PelangganController;
 use App\Http\Controllers\PesanController;
 use App\Http\Controllers\SuplierController;
 use App\Http\Controllers\HistoryController;
+use App\Http\Controllers\KategorisController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -50,4 +51,6 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'role:admin']], func
     Route::resource('pelanggan', PelangganController::class);
     Route::resource('penjualan', PenjualanController::class);
     Route::resource('detailpenjualan', DetailPenjualanController::class);
+    Route::get('kategori', [KategoriController::class, 'index'])->name('kategori');
+    Route::get('kategori/create', [KategoriController::class, 'create'])->name('kategori.create');
 });
